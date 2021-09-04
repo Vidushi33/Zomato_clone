@@ -47,6 +47,86 @@
     font-weight: 300;
 }
 
+/* <!-- Zomato heading and text bar --> */
+
+.header_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+   
+}
+.zomato_logo{
+    width: 300px;
+    margin-top:0px;
+}
+
+.header_heading h1{
+    color:white;
+    font-size: 50px ;
+    font-weight: 500;
+}
+
+.location_search_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 43%;
+    background-color: white;
+    
+    border-radius: 10px;
+   
+    height: 60px;
+}
+
+.location_icon{
+    color: #EB6E81;
+}
+
+.input_icon{
+    color: #A1A1A1;
+    margin: 0px 10px;
+}
+
+.select select{ 
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    color: #979397;
+    
+}
+
+
+
+.select{
+    margin: 0px 20px;
+}
+
+
+.seperator{
+    width:2px;
+    
+    background-color: #CFCFCF;
+    height: 50%;
+    margin-left: 50px;
+    
+}
+
+.input{
+    flex-grow:70;
+    display: flex;
+    margin: 0px 40px;
+}
+
+.input input{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
 
 
 
