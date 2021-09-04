@@ -9,6 +9,45 @@
 
 }
 
+  /* <!-- Navbar with icon login and sign up --> */
+  .header{
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 63%;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.nav-item{
+    color: white;
+    margin: 5px;
+    padding: 13px 0px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    
+}
+
+.login_nav{
+    display: flex;
+}
+
+.login_nav .nav-item{
+    padding: 0px 13px;
+     font-size: 18px;
+    font-weight: 300;
+}
+
+
 
 
 
