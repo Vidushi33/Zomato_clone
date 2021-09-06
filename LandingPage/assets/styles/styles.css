@@ -164,6 +164,100 @@
     margin: 0px 30px;
 }
 
+/* <!-- Zomato App section --> */
+  .contact{
+    height: 50vh;
+    background-color: #FEFBF7;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+   .phone img{
+      max-width:250px;
+  }
+
+.app_contact{
+    width: 25%;
+    height: 80%;
+   padding: 10px;
+    /* background-color: blue; */
+}
+
+.app_contact h2{
+    font-size: 40px;
+    font-weight: 500;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+
+}
+
+.app_contact p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+.radio_buttons{
+    display: flex;
+    justify-content: space-between;    
+    width: 50%;
+    font-size: 23px;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.radio_buttons div{
+    font-size:25px;
+    
+}
+
+div.form div.text{
+    margin-top: 20px;
+}
+
+div.form div.text input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid #E1E1E0;
+    
+}
+
+div.form div.text button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #E94A53;
+    color: white;
+    
+}
+
+ .app_download{
+    margin-top: 25px;
+}
+
+.app_download small{
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.app_download .app_icon{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    margin-top: 15px;
+}
+
+.app_download .app_icon img{
+    width: 150px;
+}
+
 
 
 
